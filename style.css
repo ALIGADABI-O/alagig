@@ -1,0 +1,32 @@
+
+div1{column-count: 2;
+column-rule: 5px brown;}
+
+div1 {
+    column-count: 3;
+column-rule: 5px burlywood;}
+@keyframes myanimation {
+    background-color: gold;
+    top:opx;
+}
+to {
+    background-color: green;
+    top:200px
+}
+div3 {
+    animation-name: myanimation;
+    animation-duration: 2s;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 111);
+}
+table, td{
+padding: 5px
+}
+td{
+    /* cell padding */
+    padding: 5px;
+}
+body{
+h2{color: rgb(235, 22, 22);}
+}
